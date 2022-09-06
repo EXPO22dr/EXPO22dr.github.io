@@ -3,7 +3,7 @@ body{
     padding-top: 0px;
     top: 0px;
     left: 0;
-    background-color: lightgray;
+    background-color:  #424b35;
 }
 
 .logo{
@@ -12,13 +12,32 @@ body{
 }
 
 .titulo{
-    background-color: lightyellow;
-    width: 100%;
+    background-color: #7e0f12;
+    width: auto;
     margin: 0px;
     padding: 0;
     border: 0;
 }
 
+.a{
+    margin-left: 40px;
+    margin-bottom: 0px;
+}
+
+.texto-titulo{
+    font-variant: small-caps;
+    margin-bottom: 2px;
+    margin-top: 0px;
+    width: fit-content;
+    color: greenyellow;
+}
+
+.texto-subtitulo{
+    color: black;
+    font-size: 40px;
+    margin-bottom: 3px;
+    margin-top: 5px;
+}
 
 /* Menu de inicio'inicio*/
 
@@ -30,7 +49,7 @@ body{
     border-color: black;
     border-style: solid;
     padding: 5px;
-    margin: 10px;
+    margin-top: 10px;
 }
 
 .celda-titulo{
@@ -45,14 +64,15 @@ body{
 
 .celda-botones{
     margin-top: 20px;
-    margin-right: 10px;
     float: right;
     display: inline-block;
     width: 90%;
     border: 0;
-    padding-top: 10px;
-    padding-left: 10px;
     width: 74px;
+}
+
+.texto-botones{
+    color: black;   
 }
 
 .links-h:hover{
@@ -74,17 +94,16 @@ margin-top: 100px;
 }
 
 .div-texto-biografia{
-    background-color: lightpink;
+    background-color: #b71a3b;
     width: fit-content;
     height: fit-content;
     font-size: 20px;
-    font-style: italic;
-    text-align: center;
     border-width: 2px;
     border-style: solid;
     position: absolute;
     left: 25px;
     right: 25px;
+    text-align: center;
 }
 
 .titulo-biografia{
@@ -99,4 +118,11 @@ margin-top: 100px;
     text-align: center;
 }
 
-
+.texto-nombres{
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 2px;
+    font-size: medium;
+    font-style: italic;
+    margin-top: 2px;
+}
