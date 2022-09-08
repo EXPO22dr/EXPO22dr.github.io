@@ -3,7 +3,7 @@ body{
     padding-top: 0px;
     top: 0px;
     left: 0;
-    background-color:  #424b35;
+    background-color:  #B5B187;
 }
 
 .logo{
@@ -12,7 +12,7 @@ body{
 }
 
 .titulo{
-    background-color: #7e0f12;
+    background-color: #E7D41F;
     width: auto;
     margin: 0px;
     padding: 0;
@@ -29,7 +29,7 @@ body{
     margin-bottom: 2px;
     margin-top: 0px;
     width: fit-content;
-    color: greenyellow;
+    color: black;
 }
 
 .texto-subtitulo{
@@ -94,7 +94,7 @@ margin-top: 100px;
 }
 
 .div-texto-biografia{
-    background-color: #b71a3b;
+    background-color: #F80000;
     width: fit-content;
     height: fit-content;
     font-size: 20px;
