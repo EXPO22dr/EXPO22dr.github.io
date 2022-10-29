@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A Xmas Carol</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="style-galeria.css">
     <link rel="icon" href="favicon.ico">
 </head>
@@ -17,35 +18,52 @@
 <div  class="titulo">
     
     <div class="celda-titulo">
-        <img class="logo" src="Christmas-Carol-PNG-HD.png" alt="">
-        <h1>EXPO '22</h1>
+        <h1 class="texto-titulo a">A</h1>
+        <h1 class="texto-titulo"> Christmas Carol</h1>
+        <h1 class="texto-subtitulo">EXPO '22</h1>
     </div>
 
     <div class="celda-botones">
-        <a href="index.html" class="informacion links-h config-links"> Home </a>
-        <a href="galeria.html" class="informacion links-h config-links"> Comic</a>
+        <a href="index.html" class="informacion links-h config-links texto-botones"> Home </a>
+        <a href="galeria.html" class="informacion links-h config-links texto-botones"> Comic</a>
     </div>
 
 </div>
 <!--Menu de Inicio'fin-->
 
 
+
 <!--Galeria de Imagenes'inicio-->
 
-<div class="galeria imagenes:hover">
-    <img class="imagenes" src="" alt="">
-    <img class="imagenes" src="" alt="">
-    <img class="imagenes" src="" alt="">
+<div id="carouselExampleInterval" class="carousel slide div-comic" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="99999999999999999999">
+      <img src="comic/83ccf853-c1dd-4329-ba8f-03dc847e2dc4 (1).jpeg" class="d-block w-100 imagenes-comic" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="99999999999999999999">
+      <img src="comic/ce72ba89-73b6-4cae-a771-541b435e2919.jpeg" class="d-block w-100 imagenes-comic" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="99999999999999999999">
+      <img src="comic/e232bd3f-0975-4a21-8fc9-3638c343b118.jpeg" class="d-block w-100 imagenes-comic" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="99999999999999999999">
+      <img src="comic/023cc16f-734a-4661-beda-66ae4916856a.jpeg" class="d-block w-100 imagenes-comic" alt="...">
+    </div>
+  </div>
 </div>
 
-<div class="galeria">
-    <img class="imagenes" src="" alt="">
-    <img class="imagenes" src="" alt="">
-    <img class="imagenes" src="" alt="">
-</div>
-<iframe class="video" width="60%" height="480" src="https://www.youtube.com/embed/nsZSy6ocM48" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;" allowfullscreen></iframe>
-    <!--Galeria de Imagenes'fin-->
+<!--Galeria de Imagenes'fin-->
  
+<!--audio'inicio-->
+    
+  <div class="div-audiobook">
+    <audio controls autoplay src="WhatsApp-Video-2022-10-20-at-13.36.28.mp3"></audio>
+  </div>
 
-</body> 
+<!--audio'fin-->
+
+
+  <script class="carousel-control-transition: opacity .15s ease;" src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body> 
+
 </html>
